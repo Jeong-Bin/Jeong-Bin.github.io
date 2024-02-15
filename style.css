@@ -1,6 +1,8 @@
 body {
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 header {
@@ -11,7 +13,7 @@ header {
     display: flex;
     flex-direction: column; /* 세로로 정렬 */
     align-items: left;
-    margin-left: 300px;
+    margin-left: 10%;
     width: 30%;
 }
 
@@ -33,7 +35,7 @@ right_box {
     align-items: center;
     width: 70%;
     margin-left: 20px;
-    margin-right: 300px;
+    margin-right: 10%;
 }
 
 section {
@@ -60,7 +62,12 @@ footer {
     bottom: 0;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1000px) {
+    body {
+        flex-direction: column; /* 세로로 정렬 */
+        align-items: left;
+    }
+
     header {
         width: 100%; /* 너비를 100%로 변경 */
         margin-left: 0px;
@@ -69,7 +76,5 @@ footer {
         left: 0;
     }
 
-    .right_box {
-        margin-top: 20%; /* header의 높이만큼 여백 추가 */
     }
 }
