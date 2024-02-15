@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
-/* @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap'); */
+/* Open Sans */
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"); */ 
+/* Red Hat Text */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap");
 
 :root {
     --header-width: 310px;
@@ -11,7 +13,7 @@
 body {
     display: flex;
     justify-content: space-between; 
-    font-family: 'Open Sans', sans-serif; /* Open Sans 폰트 사용하고, 안 되면 sans-serif 폰트  */
+    font-family: 'Red Hat Text', sans-serif; /* 불러온 폰트 사용하고, 안 되면 sans-serif 폰트  */
 }
 
 .main_box {
