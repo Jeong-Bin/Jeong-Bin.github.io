@@ -15,10 +15,12 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    text-align: left;
+    text-align: center;
     display: flex;
     flex-direction: column; /* 세로로 정렬 */
-    padding: 25px;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
     width: 310px;
 }
 
@@ -26,9 +28,9 @@ header {
     height: 100%;
     text-align: left;
     flex-direction: column;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-right: 5%;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 header img {
@@ -40,6 +42,7 @@ header img {
 #github_link {
     color: rgb(4, 175, 255); 
     background-color: white; 
+    text-decoration: none; /* 밑줄 제거 */
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
