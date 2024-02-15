@@ -16,12 +16,10 @@ header {
     background-color: #333;
     color: #fff;
     text-align: left;
-    padding: 20px;
     display: flex;
     flex-direction: column; /* 세로로 정렬 */
-    /* align-items: left; */
-    /* margin-left: 10%; */
-    width: 400px;
+    padding: 20px;
+    width: 350px;
 }
 
 .profile {
@@ -53,7 +51,7 @@ section {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
+    width: 85%;
 }
 
 .section_box {
@@ -77,6 +75,7 @@ footer {
         align-items: left;
         padding-left: 0%;
         padding-right: 0%;
+        margin-bottom: 30px;
     }
 
     header {
