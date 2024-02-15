@@ -19,7 +19,7 @@ header {
     display: flex;
     flex-direction: column; /* 세로로 정렬 */
     padding: 20px;
-    width: 350px;
+    width: 310px;
 }
 
 .profile {
@@ -32,6 +32,7 @@ header {
 header img {
     width: 235px;
     height: auto;
+    margin-bottom: 20px;
 }
 
 right_box {
