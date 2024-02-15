@@ -8,6 +8,7 @@ body {
     flex-direction: row; /* 가로로 정렬 */
     padding-left: 10%;
     padding-right: 10%;
+    width: 100%
    
 }
 
@@ -78,12 +79,14 @@ footer {
     }
 
     header {
-        width: 100%; /* 너비를 100%로 변경 */
+        width: 100%; 
         margin-left: 0px;
-        position: fixed;
+        /* position: fixed;
         top: 0;
-        left: 0;
+        left: 0; */
     }
-
+    
+    right_box {
+        width: 100%;
     }
 }
