@@ -21,7 +21,7 @@ header {
     flex-direction: column; /* 세로로 정렬 */
     /* align-items: left; */
     /* margin-left: 10%; */
-    width: 30%;
+    width: 400px;
 }
 
 .profile {
