@@ -1,8 +1,8 @@
 body {
     display: flex;
     justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 header {
@@ -34,6 +34,7 @@ right_box {
     flex-direction: column; /* 세로로 정렬 */
     align-items: center;
     padding: 20px, 20px;
+    width: 80%;
     /* margin-left: 10px; */
     /* margin-right: 10%; */
 }
@@ -44,7 +45,7 @@ section {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
+    
 }
 
 .section_box {
