@@ -11,8 +11,8 @@ header {
     display: flex;
     flex-direction: column; /* 세로로 정렬 */
     align-items: left;
+    margin-left: 300px;
     width: 30%;
-    margin-left: 15%;
 }
 
 .profile {
@@ -32,6 +32,8 @@ right_box {
     flex-direction: column; /* 세로로 정렬 */
     align-items: center;
     width: 70%;
+    margin-left: 20px;
+    margin-right: 300px;
 }
 
 section {
@@ -44,7 +46,6 @@ section {
 }
 
 .section_box {
-    margin-right: 15%;
     margin-bottom: 20px;
 }
 
@@ -59,7 +60,7 @@ footer {
     bottom: 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 960px) {
     header {
         width: 100%; /* 너비를 100%로 변경 */
         position: fixed;
