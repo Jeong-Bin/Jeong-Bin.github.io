@@ -8,6 +8,7 @@
 body {
     display: flex;
     justify-content: space-between; 
+    font-family: 'Open Sans', sans-serif; /* Open Sans 폰트 사용하고, 안 되면 sans-serif 폰트  */
 }
 
 .main_box {
@@ -36,7 +37,7 @@ header {
     height: 100%;
     text-align: left;
     flex-direction: column;
-    padding-left: 10%;
+    padding-left: 9%;
     /* padding-left: 10%;
     padding-right: 5%;
     margin-bottom: 10px; */
@@ -62,6 +63,10 @@ header img {
     text-decoration: none; /* 밑줄 제거 */
 }
 
+.sup {
+    color: rgb(155, 155, 155); 
+}
+
 right_box {
     background-color: #fff;
     display: flex;
@@ -69,7 +74,7 @@ right_box {
     align-items: center;
     padding: 20px;
     width: 70%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 section {
