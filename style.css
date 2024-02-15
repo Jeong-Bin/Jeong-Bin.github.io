@@ -1,9 +1,9 @@
 :root {
     --header-width: 310px;
-    --header-left-pad: 12%;
-    --header-right-pad: 12%;
-    --image-width: 76%;
-} /* 전역 변수 */ 
+    --header-left-pad: 45px;
+    --header-right-pad: 25px;
+    --image-width: 240px;
+} /* 전역 변수 45+25+240=310 */ 
 
 body {
     display: flex;
