@@ -1,8 +1,9 @@
 :root {
-    --header-pad: 38px;
     --header-width: 310px;
-    --image-width: 234px;
-} /* 전역 변수 */
+    --header-left-pad: 12%;
+    --header-right-pad: 12%;
+    --image-width: 76%;
+} /* 전역 변수 */ 
 
 body {
     display: flex;
@@ -25,8 +26,8 @@ header {
     display: flex;
     flex-direction: column; /* 세로로 정렬 */
     padding-top: 20px;
-    padding-left: var(--header-pad);
-    padding-right: var(--header-pad);
+    padding-left: var(--header-left-pad);
+    padding-right: var(--header-right-pad);
     width: var(--header-width);
 }
 
@@ -105,6 +106,7 @@ footer {
 
     header {
         width: 100%; 
+        padding-bottom: 20px;
         margin-left: 0px;
         margin-bottom: 30px;
     }
