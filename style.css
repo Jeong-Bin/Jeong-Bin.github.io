@@ -26,15 +26,27 @@ header img {
     margin-bottom: 10px;
 }
 
+right_box {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column; /* 세로로 정렬 */
+    align-items: center;
+    width: 70%;
+}
+
 section {
     background-color: #fff;
     margin: 20px;
     padding: 20px;
     border-radius: 5px;
-    flex-direction: column; /* 세로로 정렬 */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 65%;
+    /* width: 65%; */
 }
+
+.section_box {
+    margin-bottom: 20px;
+}
+
 
 footer {
     background-color: #333;
