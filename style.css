@@ -1,3 +1,9 @@
+:root {
+    --header-pad: 38px;
+    --header-width: 310px;
+    --image-width: 234px;
+} /* 전역 변수 */
+
 body {
     display: flex;
     justify-content: space-between; 
@@ -19,24 +25,24 @@ header {
     display: flex;
     flex-direction: column; /* 세로로 정렬 */
     padding-top: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 310px;
+    padding-left: var(--header-pad);
+    padding-right: var(--header-pad);
+    width: var(--header-width);
 }
 
 .profile {
+    width: var(--image-width);
     height: 100%;
     text-align: left;
     flex-direction: column;
-    padding-left: 10%;
+    /* padding-left: 10%;
     padding-right: 5%;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px; */
 }
 
 header img {
-    width: 235px;
+    width: var(--image-width);
     height: auto;
-    margin-bottom: 20px;
 }
 
 #github_link {
