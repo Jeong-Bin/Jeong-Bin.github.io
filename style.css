@@ -18,7 +18,7 @@ header {
     text-align: left;
     display: flex;
     flex-direction: column; /* 세로로 정렬 */
-    padding: 20px;
+    padding: 25px;
     width: 310px;
 }
 
@@ -26,8 +26,8 @@ header {
     height: 100%;
     text-align: left;
     flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-bottom: 10px;
 }
 
@@ -48,6 +48,7 @@ header img {
 
 .link {
     color: rgb(4, 175, 255); 
+    text-decoration: none; /* 밑줄 제거 */
 }
 
 right_box {
@@ -87,7 +88,7 @@ footer {
 
 @media screen and (max-width: 1080px) {
     .main_box {
-        flex-direction: column; /* 세로로 정렬 */
+        flex-direction: column;
         align-items: left;
         padding-left: 0%;
         padding-right: 0%;
@@ -95,12 +96,8 @@ footer {
 
     header {
         width: 100%; 
-        /* height: 530px; */
         margin-left: 0px;
         margin-bottom: 30px;
-        /* position: fixed;
-        top: 0;
-        left: 0; */
     }
 
     right_box {
